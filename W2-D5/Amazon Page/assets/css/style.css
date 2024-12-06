@@ -1,0 +1,158 @@
+/* Your styles here */
+/* impostazioni pagina */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgba(233, 237, 238, 1);
+}
+
+.bg-color-header-footer{
+    background-color: rgba(33, 47, 63, 1);
+}
+
+.bg-color-link{
+    background-color: rgba(54, 71, 89, 1) ;
+}
+
+.text-align{
+    text-align: center;
+}
+
+h1{
+    font-size: 2vw;
+    color: rgba(233, 237, 238, 1);
+    font-weight: 700;
+}
+
+h3{
+    font-size: 1.2vw;
+    color: rgba(233, 237, 238, 1);
+    font-weight: 700;
+    margin-top:30px;
+}
+
+/* header */
+header img{
+    width: 10%;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+header div nav ul {
+    list-style-type: none;
+}
+header div nav ul li{
+    display: inline-block;
+    padding-left: 2%;
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    font-size: 1vw;
+}
+
+header div nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* main */
+
+.banner {
+    background-color: rgba(247, 102, 25, 1);
+    padding: 0.7%;
+    margin: 2%;
+}
+
+main div p {
+    color: white;
+    font-size: 1vw;
+}
+
+.bg-image{
+    background-image: url(../images/bg-image.png);
+    background-size: contain;
+    padding: 5%;
+    margin: 2%;
+}
+
+main section{
+    background-color: white;
+    margin: 2%;
+}
+
+h2{
+    font-size: 1.2vw;
+    padding-top:1%;
+    padding-left: 1%;
+}
+.link-container{
+    color: rgba(22, 118, 135, 1);
+    font-weight: 600;
+    font-size: 1vw;
+    margin-left: 1%;
+    text-decoration: none;
+}
+
+.box-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.box {
+    background-image: url(../images/img_1.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    width: 22%;
+    height: 25vw;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    vertical-align: top;
+}
+
+.box:nth-child(2) {
+    background-image: url(../images/img_2.jpg);
+}
+.box:nth-child(3) {
+    background-image: url(../images/img_3.jpg);
+}
+.box:nth-child(4) {
+    background-image: url(../images/img_4.jpg);
+}
+
+.container {
+    margin: 2%;
+    height: auto;
+    background-color: rgba(233, 237, 238, 1) ;
+    
+}
+
+.image-container{
+    width: 100%;
+}
+
+.title-container{
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    align-items: center;
+    text-align: center;
+}
+footer div{
+    padding: 1vw;
+}
+
+footer div a{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer img{
+    width: 10%;
+    padding: 3%;
+}
